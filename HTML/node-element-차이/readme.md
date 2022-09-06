@@ -52,7 +52,7 @@ HTML 문서의 정보는 노드 트리(Node Tree)라고 불리는 계층적 구�
 
 -   Element는 Document안에 모든 객체가 상속하는 범용적인 클래스로 HTMLElement, SVGElement 인터페이스가 있다.
 
-![node-element-구조](../img/element-node%EA%B5%AC%EC%A1%B0.png)
+![node-element-구조](./element-node%EA%B5%AC%EC%A1%B0.png)
 
 #### Element의 속성
 

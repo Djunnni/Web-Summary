@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="Example">
+            <!-- 주석 -->
+            <div class="test">
+                Hi
+                <style>
+                    .subTest {
+                        color: red;
+                    }
+                </style>
+                <div class="subTest">sub Hi</div>
+                <script>
+                    document.querySelector(".subTest").addEventListener("click", function () {
+                        this.style.color = "blue";
+                    });
+                </script>
+            </div>
+            <div class="sibling">sibling Hi</div>
+        </div>
+    </body>
+    <script>
+        let element = document.querySelector("#Example");
+
+        console.log("Element");
+        console.log(element);
+        console.log("Element textContent");
+        console.log(element.textContent);
+        console.log("Element innerHTML");
+        console.log(element.innerHTML);
+        console.log("Element innerText");
+        console.log(element.innerText);
+    </script>
+</html>
