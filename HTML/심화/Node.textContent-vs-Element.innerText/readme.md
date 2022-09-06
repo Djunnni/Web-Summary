@@ -22,6 +22,8 @@ textContent는 \<script\>, \<style\> 요소를 포함해 모든 요소의 콘텐
 
 textContent는 노드의 모든 요소를 반환한다. 반면에 innerText는 스타일링을 고려해, 숨겨진 요소의 텍스트는 반환하지 않는다.
 
+> display:none 요소는 반환하지 않는다. opacity: 0는 반영
+
 innerText는 CSS 고려로 인해, innerText 값을 읽으면 최신 계산값으로 반영하려고 리플로우가 발생한다. (리플로우는 계산이 비싸므로 가능하면 피해야 한다.)
 
 #### 4) innerHTML과 차이점
