@@ -20,7 +20,7 @@ document or DocType이면 null을 반환한다.
 
 textContent는 \<script\>, \<style\> 요소를 포함해 모든 요소의 콘텐츠를 가져온다. 반면 innerText는 사람이 읽을 수 있는 요소만 처리한다.
 
-textContent는 노드의 모든 요소를 반환한다. 밤녀에 innerText는 스타일링을 고려해, 숨겨진 요소의 텍스트는 반환하지 않는다.
+textContent는 노드의 모든 요소를 반환한다. 반면에 innerText는 스타일링을 고려해, 숨겨진 요소의 텍스트는 반환하지 않는다.
 
 innerText는 CSS 고려로 인해, innerText 값을 읽으면 최신 계산값으로 반영하려고 리플로우가 발생한다. (리플로우는 계산이 비싸므로 가능하면 피해야 한다.)
 
