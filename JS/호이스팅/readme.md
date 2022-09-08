@@ -25,3 +25,8 @@ ES6에서는 모든 선언을 호이스팅 한다.
     스코프에 변수를 등록하지만 초기화는 변수 선언문에 도달했을 때, 이루어진다.
     초기화 이전에 변수에 접근하면 참조에러가 발생한다.
     스코프의 시작부터 초기화 시작 시점까지는 변수를 참조할 수 없다. 스코프의 시작 지점부터 초기화 시작지점까지를 일시적 사각지대(Temporal Dead Zone)라고 부른다.
+
+참고
+
+-   https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/let#%EC%8B%9C%EA%B0%84%EC%83%81_%EC%82%AC%EA%B0%81%EC%A7%80%EB%8C%80
+-   https://poiemaweb.com/es6-block-scope
